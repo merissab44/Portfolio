@@ -1,0 +1,120 @@
+nav > ul{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  list-style-type: none;
+  margin: 0;
+  padding:1em;
+  width:  100%;
+  overflow: hidden;
+}
+
+nav li{
+  float: left;
+}
+
+nav a {
+  display: block;
+  padding: 1.5em;
+  border-radius: 10px;
+  background-color: lightblue;
+  color: white;
+  text-decoration:none;
+  width:80x;
+  box-shadow:3px 3px lightblue, -1em 0 .4em darkslategray;
+  
+}
+header{
+  background-color: lightslategray;
+  padding: 0;
+  margin: 0;
+  width: auto;
+  height: auto;
+}
+title{
+  font-family: "Lucida Console", Courier, monospace;
+  color: black;
+  align-self: center;
+}
+body {
+    display: block;
+    font-family: 'San Serif';
+    font-size: 16px;
+    line-height: 1.25;
+    color: black;
+    background-color: rgb(248, 248, 237);
+  }
+
+ figure img{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 40%;
+    height: auto;
+  }
+  .column {
+    float: left;
+    width: 30%;
+    padding: 1em;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  h3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 3rem;
+    color: lightblue;
+  }
+  #AboutMe{
+    display: block;
+    align-self: center;
+  }
+  #Projects{
+    display: block;
+    align-self: center;
+  }
+  #Skills{
+    display: block;
+    align-self: center;
+  }
+  #Photos{
+    display: block;
+    align-self: center;
+  }
+
+  article{
+    display: block;
+    text-align: left;
+	  position: relative;
+    left: 45%;
+    top: 60px;
+    width: 40%;
+  }
+
+#Projects li{
+	display: block;
+  text-align: left;
+	position: relative;
+	left: 30%;
+	width: 50%;
+}
+
+#Skills li{
+	display: block;
+  text-align: left;
+	position: relative;
+	left: 30%;
+	width: 50%;
+}
+p{
+  text-size: 16px;
+}
